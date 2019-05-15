@@ -77,7 +77,7 @@ exports.update = (req, res, next)=>{
 			doc.save((err)=>{
 				if(err) return json({code: 1002, errorMsg: "数据库错误"});
 			});
-		};
+		}
 	});
 };
 
