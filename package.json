@@ -1,0 +1,32 @@
+{
+  "name": "react_todo_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwc2016/react_todo_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lwc2016/react_todo_app/issues"
+  },
+  "homepage": "https://github.com/lwc2016/react_todo_app#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mongoose": "^4.13.7",
+    "morgan": "^1.9.0",
+    "redis": "^2.8.0",
+    "sha1": "^1.1.1"
+  }
+}
